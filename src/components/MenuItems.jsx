@@ -6,7 +6,7 @@ const MenuItems = ({ title, address, icon }) => {
     <ul>
       <Link href={address}>
         <li className="block sm:hidden">{icon}</li>
-        <li className="hidden sm:block font-medium text-blue-600">{title}</li>
+        <li className="hidden sm:block font-medium">{title}</li>
       </Link>
     </ul>
   );
